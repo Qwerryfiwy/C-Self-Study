@@ -1,0 +1,35 @@
+Why do we need file.
+Use to store data and information
+Use to read an access data any time from hard disc
+Access and store content without losing it on program termination
+Types:
+Volatile (RAM):
+It only maintain its data while the device is powered
+Will hold data temporarily
+Non-Volatile(Hard Disc):
+It can retain stored information even when not powered.
+Long Term storage of data.
+
+C=> Terminated => RAM DATA is Lost
+=> We should store it in file.
+
+
+Types of Files:
+Text Files 
+Binary Files
+
+File Operation in C:
+1.Creating new file
+2.Opening a file.
+3.Closing a file.
+4.Reading from and Writing in the File
+
+Working with files:
+Pointer of type "FILE"
+SYNTAX:
+FILE *ptr = NULL;
+This declaration helps us to work through C program
+OPENING :
+fopen("file_name.txt","Mode_Name");
+
+
