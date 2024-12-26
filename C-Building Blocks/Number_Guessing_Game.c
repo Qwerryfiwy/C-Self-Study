@@ -6,7 +6,7 @@ void randomNumber(int guess_number);
 
 const int MIN=1;
     const int MAX=100;
-    int NO_OF_GUESS=3;
+    int NO_OF_GUESS=5;
 int main(){
     int guess_number;
     printf("Lets Play a Number Gussing Game.\nYou have Three Chances\n");
@@ -23,18 +23,18 @@ int guess_number;
     scanf("%d",&guess_number);
     if(answer==guess_number){
         printf("You Win!!\n");
-        NO_OF_GUESS--;
         break;
     }
     else if(answer>guess_number){
         printf("Go Higher\n");
         NO_OF_GUESS--;
+
     }
     else if(answer<guess_number){
         printf("Go Lower\n");
         NO_OF_GUESS--;
     }}
-if(NO_OF_GUESS==0){
+if(NO_OF_GUESS==0 ){
     printf("YOU Lose\n");
 }
 }
